@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <com.skyfishjy.library.RippleBackground
+            android:id="@+id/ripple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:rb_color="#F57D02"
+            app:rb_duration="3000"
+            app:rb_radius="32dp"
+            app:rb_rippleAmount="4"
+            app:rb_scale="6" />
+
+        <ImageView
+            android:id="@+id/wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/pixabay_link"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="10dp"
+            android:background="@android:color/white"
+            android:src="@drawable/pixabaylogo" />
+
+        <LinearLayout
+            android:id="@+id/error_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_outline_black_48dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Could not load the wallpaper" />
+
+            <Button
+                android:id="@+id/retry_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RETRY" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/wallpaper_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.dd.CircularProgressButton
+                android:id="@+id/btnWithText"
+                android:layout_width="196dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@android:color/white"
+                app:cpb_colorIndicator="@color/colorPrimaryDark"
+                app:cpb_colorProgress="@color/colorPrimary"
+                app:cpb_cornerRadius="48dp"
+                app:cpb_selectorComplete="@drawable/complete_state_selector"
+                app:cpb_selectorIdle="@drawable/idle_state_selector"
+                app:cpb_textComplete="@string/Complete"
+                app:cpb_textError="@string/Error"
+                app:cpb_textIdle="@string/Set" />
+
+            <com.dd.CircularProgressButton
+                android:id="@+id/btnWithImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:drawableTop="@drawable/ic_cloud_download_white_24dp"
+                android:textColor="@android:color/white"
+                app:cpb_colorIndicator="@color/colorPrimaryDark"
+                app:cpb_colorProgress="@color/colorPrimary"
+                app:cpb_cornerRadius="50dp"
+                app:cpb_iconComplete="@drawable/ic_done_white_24dp"
+                app:cpb_selectorComplete="@drawable/complete_state_selector"
+                app:cpb_selectorIdle="@drawable/idle_state_selector"
+                app:cpb_textError="@string/Error" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

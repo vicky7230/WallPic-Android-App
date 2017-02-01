@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/turmeric"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|left"
+        android:layout_margin="16dp"
+        android:src="@drawable/playstore_icon" />
+    <!--app:civ_border_width="2dp"
+    app:civ_border_color="@android:color/black"-->
+    <TextView
+        android:id="@+id/header_textView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center|left"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+</LinearLayout>

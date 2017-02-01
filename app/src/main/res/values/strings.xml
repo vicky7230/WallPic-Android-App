@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">WallPic</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="random_label">Random</string>
+    <string name="help_label">Help</string>
+    <string name="about_label">About</string>
+    <string name="powered_by_label">Powered By Pixabay</string>
+    <string name="fashion_label">Fashion</string>
+    <string name="nature_label">Nature</string>
+    <string name="backgrounds_label">Backgrounds</string>
+    <string name="science_label">Science</string>
+    <string name="education_label">Education</string>
+    <string name="people_label">People</string>
+    <string name="feelings_label">Feelings</string>
+    <string name="religion_label">Religion</string>
+    <string name="health_label">Health</string>
+    <string name="places_label">Places</string>
+    <string name="animals_label">Animals</string>
+    <string name="industry_label">Industry</string>
+    <string name="food_label">Food</string>
+    <string name="computer_label">Computer</string>
+    <string name="sports_label">Sports</string>
+    <string name="transportation_label">Transportation</string>
+    <string name="travel_label">Travel</string>
+    <string name="buildings_label">Buildings</string>
+    <string name="business_label">Business</string>
+    <string name="music_label">Music</string>
+    <string name="Set">SET AS WALLPAPER</string>
+    <string name="Error">Error</string>
+    <string name="Complete">WALLPAPER SET</string>
+    <string name="action_share_title">Share App</string>
+    <string name="action_about_title">About</string>
+    <string name="download">Download</string>
+    <string name="downloaded">DOWNLOADED</string>
+</resources>

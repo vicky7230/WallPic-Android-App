@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/random"
+            android:checked="true"
+            android:icon="@drawable/ic_wallpaper_black_24dp"
+            android:title="@string/random_label" />
+
+        <item
+            android:id="@+id/fashion"
+            android:checked="true"
+            android:icon="@drawable/ic_card_giftcard_black_24dp"
+            android:title="@string/fashion_label" />
+
+        <item
+            android:id="@+id/nature"
+            android:checked="true"
+            android:icon="@drawable/ic_nature_black_24dp"
+            android:title="@string/nature_label" />
+
+        <item
+            android:id="@+id/backgrounds"
+            android:checked="true"
+            android:icon="@drawable/ic_video_label_black_24dp"
+            android:title="@string/backgrounds_label" />
+
+        <item
+            android:id="@+id/science"
+            android:checked="true"
+            android:icon="@drawable/ic_speaker_phone_black_24dp"
+            android:title="@string/science_label" />
+
+        <item
+            android:id="@+id/education"
+            android:checked="true"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="@string/education_label" />
+
+        <item
+            android:id="@+id/people"
+            android:checked="true"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/people_label" />
+        <item
+            android:id="@+id/feelings"
+            android:checked="true"
+            android:icon="@drawable/ic_tag_faces_black_24dp"
+            android:title="@string/feelings_label" />
+
+        <item
+            android:id="@+id/religion"
+            android:checked="true"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="@string/religion_label" />
+
+        <item
+            android:id="@+id/health"
+            android:checked="true"
+            android:icon="@drawable/ic_fitness_center_black_24dp"
+            android:title="@string/health_label" />
+        <item
+            android:id="@+id/places"
+            android:checked="true"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="@string/places_label" />
+
+        <item
+            android:id="@+id/animals"
+            android:checked="true"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="@string/animals_label" />
+
+        <item
+            android:id="@+id/industry"
+            android:checked="true"
+            android:icon="@drawable/ic_poll_black_24dp"
+            android:title="@string/industry_label" />
+
+        <item
+            android:id="@+id/food"
+            android:checked="true"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="@string/food_label" />
+
+        <item
+            android:id="@+id/computer"
+            android:checked="true"
+            android:icon="@drawable/ic_computer_black_24dp"
+            android:title="@string/computer_label" />
+
+        <item
+            android:id="@+id/sports"
+            android:checked="true"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:title="@string/sports_label" />
+
+        <item
+            android:id="@+id/transportation"
+            android:checked="true"
+            android:icon="@drawable/ic_directions_transit_black_24dp"
+            android:title="@string/transportation_label" />
+        <item
+            android:id="@+id/travel"
+            android:checked="true"
+            android:icon="@drawable/ic_card_travel_black_24dp"
+            android:title="@string/travel_label" />
+
+        <item
+            android:id="@+id/buildings"
+            android:checked="true"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="@string/buildings_label" />
+
+        <item
+            android:id="@+id/business"
+            android:checked="true"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="@string/business_label" />
+
+        <item
+            android:id="@+id/music"
+            android:checked="true"
+            android:icon="@drawable/ic_library_music_black_24dp"
+            android:title="@string/music_label" />
+
+    </group>
+</menu>
